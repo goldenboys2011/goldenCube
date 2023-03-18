@@ -1,0 +1,86 @@
+<index>
+    <head>
+<meta charset="utf-8">
+
+       <title>goldenCube</title>
+
+       <!-- Load external CSS styles -->
+       <link rel="stylesheet" href="styles.css">
+<style>
+body {
+ font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: orange;
+ overflow-x: hidden;
+ transition: 1.50s;
+ padding-top: 40px;
+}
+
+.sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #818181;
+ display: block;
+ transition: 0.90;
+}
+
+.sidenav a:hover {
+ color: red;
+}
+
+.sidenav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+</style>
+   <style type="text/css"></style></head>
+
+   <body>
+<div id="mySidenav" class="sidenav" style="width: 250px;">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">|||</a>
+ <a href="/About.html">About</a>
+ <a href="#">Services</a>
+ <a href="#">Clients</a>
+ <a href="#">Contact</a>
+ <a href="/pranks/virous-prank.html">Virous_Prank</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">|||</span>
+        </head>
+        <body><font color=white><center>
+            <H1>About goldenCube</H1>
+            <p>goldenCube is greek coding company which is making websites</p>
+            <p>applications and video games for now goldenCube is just a </p>
+            <p>small company but we hoping what in the future is going to</p>
+            <p>be e biger company</p><font color="gold"><center>
+            <p id="notcenter">Odysseas Chryssos(founter of goldenCube)</p></font>
+            </font>
+            </body>
+            <script>
+function openNav() {
+ document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+ document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    </index>
